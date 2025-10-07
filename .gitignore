@@ -1,0 +1,27 @@
+# Global ignores for the repository
+
+# Dependencies
+ui/node_modules/
+
+# Next.js build outputs
+ui/.next/
+ui/out/
+
+# Production builds
+ui/build/
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Environment files (keep secrets out of git)
+ui/.env*
+
+# Vercel
+ui/.vercel/
+
+# TypeScript artifacts
+ui/*.tsbuildinfo
+ui/next-env.d.ts
